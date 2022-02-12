@@ -1,6 +1,6 @@
 <html>
 <script type="text/javascript" src="csvjson.min.js"></script>
-<script>
+<!-- <script>
     const csv = `album, year, US_peak_chart_post
 The White Stripes, 1999, -
 De Stijl, 2000, -
@@ -14,8 +14,20 @@ Live at the Gold Dollar, 2012, -
 Nine Miles from the White City, 2013, -`;
 
     const json = CSVJSON.csv2json(csv, {parseNumbers: true});
-    console.log(json);
+    console.log(json); -->
+
+
 </script>
+
+<textarea id="csv" class="form-control input save" rows="18" spellcheck="false">
+  
+</textarea>
+
+<textarea id="result" class="form-control result save" rows="18" spellcheck="false">
+
+</textarea>
+
+<button id="conversion">Convert</button>
 
 
 </html>
